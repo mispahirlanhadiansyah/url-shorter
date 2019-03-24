@@ -1,0 +1,68 @@
+{
+	"id": "f57662c2-86bd-be48-a6d5-ef05ecd76493",
+	"name": "Shortenurll",
+	"description": "",
+	"order": [
+		"c1329794-a589-f4eb-965a-0afc04605a53",
+		"21a22307-88ae-c60b-f7f8-9c7d65d5a6b6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1553393107686,
+	"owner": "6954188",
+	"public": false,
+	"requests": [
+		{
+			"id": "21a22307-88ae-c60b-f7f8-9c7d65d5a6b6",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:1323/mUSPOu/stats",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f57662c2-86bd-be48-a6d5-ef05ecd76493",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:1323/mUSPOu/stats",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553400511083,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c1329794-a589-f4eb-965a-0afc04605a53",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:1323/shorten",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553400474310,
+			"name": "create shorten",
+			"description": "",
+			"collectionId": "f57662c2-86bd-be48-a6d5-ef05ecd76493",
+			"responses": [],
+			"rawModeData": "{\n\t\"url\":\"https://facebook.com\",\n\t\"shortcode\":\"facebook\"\n}"
+		}
+	]
+}

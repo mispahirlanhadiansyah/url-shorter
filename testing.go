@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	isvalidate := util.Shortener{}.ValidateUrl("a1b2c3")
+	isvalidate := util.Shortener{}.ValidateUrl("abc")
 
 	fmt.Println(isvalidate)
 

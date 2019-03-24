@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-var regex = "^[0-9a-zA-Z_]{6}$"
+var regex = "^[0-9a-zA-Z_]{4,}$"
 var charset = "0123456789abcdefghijklmnopqrstuvwxyz" +
 	"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
